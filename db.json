@@ -1,8 +1,38 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "firstName": "sample string 1",
+      "lastName": "sample string 2",
+      "email": "sample string 3",
+      "mobileNumber": "sample string 4",
+      "about": "sample string 5",
+      "profileImg": {
+        "name": "sample string 1",
+        "url": "sample string 2",
+        "title": "sample string 3",
+        "altAttribute": "sample string 4",
+        "thumbUrl": "sample string 5",
+        "id": 6
+      },
+      "address": {
+        "firstName": "sample string 1",
+        "lastName": "sample string 2",
+        "email": "sample string 3",
+        "phoneNumber1": "sample string 4",
+        "phoneNumber2": "sample string 5",
+        "address1": "sample string 6",
+        "address2": "sample string 7",
+        "area": "sample string 8",
+        "city": "sample string 9",
+        "stateProvinceId": 1,
+        "countryId": 1,
+        "zipPostalCode": "sample string 10",
+        "latitude": 1.0,
+        "longitude": 1.0,
+        "id": 11
+      },
+      "id": 6
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
